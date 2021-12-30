@@ -5,15 +5,15 @@ MONTH=$(date +%b)
 DAY=$(date +%d)
 
 case $MONTH in
-	"Jan")
+	"Jan") # HAPPY NEW YEAR
 	 	EMOJI="🎆"
 		;;
-	"Jun")
+	"Jun") # PRIDE MONTH
 		EMOJI="🌈"
 		;;
-	"Dec")
+	"Dec") # MARRY CHRISTMAS
 		EMOJI="🎄"
-		if [[ DAY > 25 ]]
+		if [[ DAY > 25 ]] # HAPPY NEW YEAR
 		then
 			EMOJI="🌟"
 		fi 
@@ -25,6 +25,6 @@ esac
 
 THEME="PROMPT=\"%(?:$EMOJI:💢)\"" 
 
-sed -i "2s/.*/$THEME/" zsh-thematic.zsh-theme
+sed -i "2s/.*/$THEME/" ${0:A:h}/zsh-thematic.zsh-theme
 
-cp zsh-thematic.zsh-theme $ZSH/themes/
+cp ${0:A:h}/zsh-thematic.zsh-theme $ZSH/themes/

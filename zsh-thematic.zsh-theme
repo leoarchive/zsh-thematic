@@ -1,6 +1,6 @@
 # PROMPT THEMATIC EMOJI
 PROMPT="%(?:🌟:💢)"
-#
+# ROBBYRUSSELL THEME
 PROMPT+=' %{$FG[003]%}%c%{$reset_color%} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
