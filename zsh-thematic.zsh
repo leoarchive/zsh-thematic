@@ -23,7 +23,7 @@ case $MONTH in
 	"Jan") # HAPPY NEW YEAR
 	 	EMOJI="🎆"
 		;;
-	"Feb" # BIRD-FEEDING MONTH
+	"Feb") # BIRD-FEEDING MONTH
 		EMOJI="🦆"
 		;;
 	"Mar") # WOMEN'S HISTORY
