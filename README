@@ -1,3 +1,7 @@
+git clone https://github.com/leozamboni/zsh-thematic.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-thematic
+
+inside ~/.zshrc
+
 ZSH_THEME="zsh-thematic"
 
 plugins=(
