@@ -1,0 +1,5 @@
+ZSH_THEME="zsh-thematic"
+
+plugins=(
+        zsh-thematic
+)
