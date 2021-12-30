@@ -23,8 +23,26 @@ case $MONTH in
 	"Jan") # HAPPY NEW YEAR
 	 	EMOJI="🎆"
 		;;
+	"Feb" # BIRD-FEEDING MONTH
+		EMOJI="🦆"
+		;;
+	"Mar") # WOMEN'S HISTORY
+		EMOJI="🧚"
+		;;
+	"Apr") # MATH MONTH
+		EMOJI="📐"
+		;;
+	"May") # PET MONTH
+		EMOJI="🐶"
+		;;
 	"Jun") # PRIDE MONTH
 		EMOJI="🌈"
+		;;
+	"Jul") # ICE CREAM MONTH
+		EMOJI="🍦"
+		;;
+	"Sep") # SCIENCE MONTH
+		EMOJI="🧬"
 		;;
 	"Oct") # HALLOWEEN
 		EMOJI="🎃"
@@ -39,8 +57,8 @@ case $MONTH in
 			EMOJI="🌟"
 		fi 
   		;;
-	*)
-    		EMOJI="🐮"
+	*) # GNU PLUS LINUX
+    		EMOJI="🐃" 
 		;;
 esac
 
