@@ -29,6 +29,9 @@ case $MONTH in
 	"Oct") # HALLOWEEN
 		EMOJI="🎃"
 		;; 
+	"Nov") # BLACK AWARENESS DAY
+		EMOJI="✊🏿"
+		;;
 	"Dec") # MARRY CHRISTMAS
 		EMOJI="🎄"
 		if [[ DAY > 25 ]] # HAPPY NEW YEAR
