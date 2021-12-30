@@ -21,7 +21,7 @@ DAY=$(date +%d)
 
 case $MONTH in
 	"Jan") # HAPPY NEW YEAR
-	 	EMOJI="🎆"
+	 	EMOJI="🎊"
 		;;
 	"Feb") # BIRD-FEEDING MONTH
 		EMOJI="🦆"
